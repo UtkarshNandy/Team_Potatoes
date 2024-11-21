@@ -1,61 +1,17 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+p {
+  color: blue;
+  border: dotted;
+  display: inline-block;
+  padding: 20px;
 }
 
-/* Set a pleasant background color and font */
-body {
-  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+button {
+  background-color: #064da6;
+  color: white;
+  border: none;
+  padding: 10px;
 }
 
-/* Container to hold the content */
-.container {
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-/* Style for the paragraphs */
-.container h1 {
-  font-size: 1.5rem;
-  color: #333333;
-  margin: 15px 0;
-  position: relative;
-  padding-left: 25px;
-  transition: color 0.3s ease;
-}
-
-/* Add a decorative icon before each paragraph */
-.container h1::before {
-  content: "👤";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 1.2rem;
-}
-
-/* Hover effect for paragraphs */
-.container p:hover {
-  color: #007bff;
-}
-
-/* Responsive design for smaller screens */
-@media (max-width: 600px) {
-  .container {
-    padding: 20px;
-  }
-
-  .container p {
-    font-size: 1.2rem;
-  }
+.blood {
+  color: red;
 }
